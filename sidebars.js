@@ -1,5 +1,9 @@
 module.exports = {
-  someSidebar: {
-    Docusaurus: ['ApplicationLayer', 'TransportLayer']
-  },
+  docs: [
+    {
+      type: 'category',
+      label: '介绍',
+      items: ['ApplicationLayer', 'TransportLayer'],
+    }
+  ]
 };
